@@ -4,41 +4,41 @@
       "name": "Prayer",
       "about": "Pray everyday and vivify your mental health.",
       "time": 30,
-      "image": "https://unsplash.com/photos/rK9twevBzu0"
+      "image": "https://images.unsplash.com/photo-1626079651751-2f2c31f38223?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1527&q=80"
     },
     {
       "_id": "54d",
       "name": "Exercise",
       "about": "Doing exercise for 30 minutes regularly will keep you healthy.",
       "time": 60,
-      "image": "https://unsplash.com/photos/FMQBLyhD2HU"
+      "image": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
     },
     {
       "_id": "48e",
       "name": "Newspaper",
       "about": "Reading newspaper daily will enrich your knowledge.",
       "time": 60,
-      "image": "https://unsplash.com/photos/3M2cqBRQmjA"
+      "image": "https://images.unsplash.com/photo-1497008386681-a7941f08011e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
     },
     {
       "_id": "3f9",
       "name": "Study",
       "about": "Completing your lesson can make you successful in life.",
       "time": 60,
-      "image": "https://unsplash.com/photos/IjQdCrknYXI"
+      "image": "https://images.unsplash.com/photo-1518463892881-d587bf2c296a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
     },
     {
       "_id": "92c",
       "name": "Entertainment",
       "about": "Enjoy you leisure time.",
       "time": 60,
-      "image": "https://www.freepik.com/free-photo/sitting-woman-watching-football-public-place-night_16447938.htm#query=watching%20movie%20image%20with%20height%20200px%20and%20weidth%20300px&position=34&from_view=search&track=ais"
+      "image": "https://img.freepik.com/free-photo/sitting-woman-watching-football-public-place-night_1268-17902.jpg?w=900&t=st=1664404508~exp=1664405108~hmac=360d772b459c3ad0aae41aedd0beaf96d9f57125febccc9e79500a56262bbf19"
     },
     {
       "_id": "97e",
       "name": "Play",
-      "about": "Playing games with friends creates beautiful memory.",
+      "about": "Playing games with friends creates beautiful memories.",
       "time": 60,
-      "image": "https://www.freepik.com/free-photo/silhouette-children-play-soccer-football_3654369.htm#query=playing%20football%20image%20with%20height%20200px%20and%20weidth%20300px&position=2&from_view=search&track=ais"
+      "image": "https://img.freepik.com/free-photo/brother-sister-playing-with-kite-plane-field-sunset_1303-27800.jpg?w=740&t=st=1664404608~exp=1664405208~hmac=7bdbd5bc565eeca8f3431411a77a51682e4498a54ecfc3978e596a9389e20d4e"
     }
   ]

@@ -1,12 +1,16 @@
-
 import './App.css';
+import Cards from './components/Cards/Cards';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Hello!
-      
-    </h1>
+    <div className="App container">
+      <div className="activity-container">  
+        <Cards></Cards>
+      </div>
+
+      <div className="activity-counter">
+
+      </div>
     </div>
   );
 }
