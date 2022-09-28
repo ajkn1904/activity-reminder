@@ -1,0 +1,44 @@
+[
+    {
+      "_id": "c79",
+      "name": "Prayer",
+      "about": "Pray everyday and vivify your mental health.",
+      "time": 30,
+      "image": "https://unsplash.com/photos/rK9twevBzu0"
+    },
+    {
+      "_id": "54d",
+      "name": "Exercise",
+      "about": "Doing exercise for 30 minutes regularly will keep you healthy.",
+      "time": 60,
+      "image": "https://unsplash.com/photos/FMQBLyhD2HU"
+    },
+    {
+      "_id": "48e",
+      "name": "Newspaper",
+      "about": "Reading newspaper daily will enrich your knowledge.",
+      "time": 60,
+      "image": "https://unsplash.com/photos/3M2cqBRQmjA"
+    },
+    {
+      "_id": "3f9",
+      "name": "Study",
+      "about": "Completing your lesson can make you successful in life.",
+      "time": 60,
+      "image": "https://unsplash.com/photos/IjQdCrknYXI"
+    },
+    {
+      "_id": "92c",
+      "name": "Entertainment",
+      "about": "Enjoy you leisure time.",
+      "time": 60,
+      "image": "https://www.freepik.com/free-photo/sitting-woman-watching-football-public-place-night_16447938.htm#query=watching%20movie%20image%20with%20height%20200px%20and%20weidth%20300px&position=34&from_view=search&track=ais"
+    },
+    {
+      "_id": "97e",
+      "name": "Play",
+      "about": "Playing games with friends creates beautiful memory.",
+      "time": 60,
+      "image": "https://www.freepik.com/free-photo/silhouette-children-play-soccer-football_3654369.htm#query=playing%20football%20image%20with%20height%20200px%20and%20weidth%20300px&position=2&from_view=search&track=ais"
+    }
+  ]
