@@ -3,6 +3,15 @@ import BreakBtn from '../BreakBtn/BreakBtn';
 import './Summary.css'
 
 const Summary = (props) => {
+
+    const {task} = props;
+
+    let totalTime = 0;
+    for(const items of task){
+        totalTime = totalTime + items.time;
+    }
+
+    console.log(props.task);
     const breakeBtnHandler = () => {
         console.log()
     }
@@ -27,12 +36,12 @@ const Summary = (props) => {
             
             <div className='task-time'>
                 <h4>Task Duration</h4>
-                <input type="text" placeholder='200 minutes'/>{props}
+                <p><span>{totalTime}</span> minutes</p>
             </div>
 
             <div className='beak-time'>
                 <h4>Break Time</h4>
-                <input type="text" placeholder='10 minutes'/>
+                <p> minutes</p>
             </div>
 
             <button className='activity-completed'>Activity Completed</button>

@@ -13,7 +13,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.task-time input, .beak-time input{
+.task-time input, .beak-time p{
+    background-color: white;
     width: 50%;
     height: 50px;
     border: none; 
