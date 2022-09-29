@@ -9,9 +9,14 @@ const Cards = () => {
         .then(res => res.json())
         .then(data => setCards(data))
     }, []);
+
+
     
     const listHandler = (card) => {
         console.log(card);
+        const newCards = [...card, newCards];
+        setCards (newCards);
+
     }
 
 

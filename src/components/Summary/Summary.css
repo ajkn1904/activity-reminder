@@ -1,5 +1,39 @@
 .summary-info{
-    padding: 10px 20px;
+    padding: 10px 10px 0px 20px;
     position: sticky;
     top: 0px;
+}
+
+.summary-info h2{
+    margin-bottom: 30px;
+}
+
+.task-time, .beak-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-time input, .beak-time input{
+    width: 50%;
+    height: 50px;
+    border: none; 
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.activity-completed{
+    margin-top: 50px;
+    height: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.activity-completed:hover{
+    background-color: darkslategrey;
 }

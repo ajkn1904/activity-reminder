@@ -1,0 +1,19 @@
+.break-btns{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.break-btns button{
+    padding: 4px;
+    height: 40px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    color: white;
+    margin: 2px;
+}
+
+.break-btns button:hover{
+    background-color: darkslategrey;
+}
