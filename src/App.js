@@ -41,7 +41,6 @@ function App() {
       </div>
 
       <div className="activity-counter">
-        <p>selected item: {activities.length}</p>
         <Summary task={activities}></Summary>
       </div>
     </div>

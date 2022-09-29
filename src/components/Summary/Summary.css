@@ -22,6 +22,26 @@
     border-radius: 15px;
 }
 
+.break-btn{
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.break-btn button{
+    padding: 4px;
+    height: 40px;
+    width: 37px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    color: white;
+    margin: 2px;
+}
+
+.break-btn button:hover{
+    background-color: darkslategrey;
+}
+
 .activity-completed{
     margin-top: 50px;
     height: 40px;
@@ -37,4 +57,20 @@
 
 .activity-completed:hover{
     background-color: darkslategrey;
+}
+
+@media only screen and (max-width: 767px) {
+    .break-btn{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .break-btn button{
+        padding: 4px;
+        height: 40px;
+        width: 100%;
+        border-radius: 10%;
+    }
+
 }
