@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Card from './components/Card/Card';
+import Header from './components/Header/Header';
 import Summary from './components/Summary/Summary';
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
 
   return (
     <div className="App container">
-      <div className="activity-container"> 
+      <div className="activity-container">
+        <Header></Header> 
         <h1>Select today's Task</h1> 
         <div className='cards'>
             {
