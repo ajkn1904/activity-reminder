@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Summary.css'
+
+
 
 const Summary = (props) => {
 
@@ -41,6 +45,9 @@ const Summary = (props) => {
  */
 
 
+    const toaster = () => toast("Congratulations! Your have successfully completed your all tasks.");
+
+
     return (
         <div className="summary-info">
             <h2>My Pro</h2>
@@ -75,7 +82,8 @@ const Summary = (props) => {
                 
             </div>
 
-            <button className='activity-completed'>Activity Completed</button>
+            <button onClick={toaster} className='activity-completed'>Activity Completed</button>
+            <ToastContainer />
         </div>
     );
 };
