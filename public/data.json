@@ -10,21 +10,21 @@
       "_id": "54d",
       "name": "Exercise",
       "about": "Doing exercise for 30 minutes regularly will keep you healthy.",
-      "time": 60,
+      "time": 30,
       "image": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
     },
     {
       "_id": "48e",
       "name": "Newspaper",
       "about": "Reading newspaper daily will enrich your knowledge.",
-      "time": 60,
+      "time": 45,
       "image": "https://images.unsplash.com/photo-1497008386681-a7941f08011e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
     },
     {
       "_id": "3f9",
       "name": "Study",
-      "about": "Completing your lesson can make you successful in life.",
-      "time": 60,
+      "about": "Completing your lesson regularly can make you successful in life.",
+      "time": 90,
       "image": "https://images.unsplash.com/photo-1518463892881-d587bf2c296a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
     },
     {
