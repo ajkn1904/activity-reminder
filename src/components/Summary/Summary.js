@@ -11,8 +11,18 @@ const Summary = (props) => {
         totalTime = totalTime + items.time;
     }
 
-    console.log(props.task);
-    const breakeBtnHandler = () => {
+
+    const btns = document.querySelectorAll('.breakBtn');
+
+    btns.forEach(breakBtn => {
+        breakBtn.addEventListener('click', function(event){
+            const clickedText = event.target.parentElement.innerText;
+            localStorage.setItem("Break Time", clickedText);
+        });
+    });
+
+    
+    const breakBtnHandler = () => {
         console.log()
     }
 
@@ -29,7 +39,13 @@ const Summary = (props) => {
             <h2>Add A Break</h2>
 
             <div className='break-btn'>
-                <BreakBtn></BreakBtn>     
+                <button><span className='breakBtn'>10</span> m</button>
+                <button><span className='breakBtn'>15</span> m</button>
+                <button><span className='breakBtn'>30</span> m</button>
+                <button><span className='breakBtn'>60</span> m</button>
+                <button><span className='breakBtn'>90</span> m</button>
+
+{/*             <BreakBtn></BreakBtn> */}     
             </div>
 
             <h2>Activity Details</h2>
@@ -39,9 +55,9 @@ const Summary = (props) => {
                 <p><span>{totalTime}</span> minutes</p>
             </div>
 
-            <div className='beak-time'>
+            <div className='break-time'>
                 <h4>Break Time</h4>
-                <p> minutes</p>
+                <p id='breakTimeDuration'> minutes</p>
             </div>
 
             <button className='activity-completed'>Activity Completed</button>
