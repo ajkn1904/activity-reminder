@@ -1,9 +1,9 @@
 .card{
-    height: 23rem;
+    height: 22rem;
     width: 16rem;
     border: 1px solid gray;
     border-radius: 10px;
-    padding: 5px;
+    position: relative;
 }
 
 .card img{
@@ -17,9 +17,26 @@
 .card-details{
     padding-left: 10px;
     margin-top: 2px;
+
 }
 
-.card-details h3{
+.card-details h2{
     margin-top: 0px;
     margin-bottom: 2px;
+}
+
+.card button{
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.card button:hover{
+    background-color: darkslategrey;
 }

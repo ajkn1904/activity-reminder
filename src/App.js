@@ -5,7 +5,8 @@ import Summary from './components/Summary/Summary';
 function App() {
   return (
     <div className="App container">
-      <div className="activity-container">  
+      <div className="activity-container"> 
+        <h1>Select today's Task</h1> 
         <Cards></Cards>
       </div>
 

@@ -9,11 +9,19 @@ const Cards = () => {
         .then(res => res.json())
         .then(data => setCards(data))
     }, []);
+    
+    const listHandler = (card) => {
+        console.log(card);
+    }
+
 
     return (
         <div className='cards'>
             {
-                cards.map(card => <Card card={card} key={card._id}></Card>)
+                cards.map(card => <Card 
+                    card={card}
+                    key={card._id}
+                    listHandler= {listHandler}></Card>)
             }
             
         </div>

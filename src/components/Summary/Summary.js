@@ -3,7 +3,7 @@ import './Summary.css'
 
 const Summary = () => {
     return (
-        <div className="sumarry-info">
+        <div className="summary-info">
             <h2>My Pro</h2>
             <div>
             <h4>Anika Jumana KHanam</h4>
