@@ -1,5 +1,6 @@
 import './App.css';
 import Cards from './components/Cards/Cards';
+import Summary from './components/Summary/Summary';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </div>
 
       <div className="activity-counter">
+        <Summary></Summary>
 
       </div>
     </div>

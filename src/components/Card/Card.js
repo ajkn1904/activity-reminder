@@ -7,9 +7,11 @@ const Card = (props) => {
     return (
         <div className="card">
             <img src={image} alt="" />
-            <h3>{name} </h3>
-            <p>{about}</p>
-            <small>Duration: {time}</small>
+            <div className="card-details">
+                <h3>{name} </h3>
+                <p>{about}</p>
+                <small>Duration: {time}</small>
+            </div>
         </div>
     );
 };
