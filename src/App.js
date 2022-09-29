@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import Blog from './components/Blog/Blog';
 import Card from './components/Card/Card';
 import Header from './components/Header/Header';
 import Summary from './components/Summary/Summary';
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="App container">
+ 
       <div className="activity-container">
         <Header></Header> 
         <h1>Select today's Task</h1> 
@@ -40,12 +42,14 @@ function App() {
             }
             
         </div>
+        <Blog></Blog>
       </div>
 
       <div className="activity-counter">
         <Summary task={activities}></Summary>
       </div>
-    </div>
+
+  </div>
   );
 }
 
