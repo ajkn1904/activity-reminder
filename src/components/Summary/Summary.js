@@ -73,7 +73,7 @@ const Summary = (props) => {
             
             <div className='task-time'>
                 <h4>Task Duration</h4>
-                <p><span>{totalTime}</span> minutes</p>
+                <p>{totalTime} minutes</p>
             </div>
 
             <div className='break-time'>

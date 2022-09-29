@@ -6,14 +6,18 @@
 
 .summary-info h2{
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.task-time, .beak-time{
+.task-time, .break-time{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.task-time input, .beak-time p{
+.task-time p, .break-time p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     width: 50%;
     height: 50px;
@@ -32,6 +36,7 @@
     padding: 4px;
     height: 40px;
     width: 37px;
+    font-weight: 700;
     border-radius: 50%;
     background-color: lightseagreen;
     color: white;
@@ -44,6 +49,7 @@
 
 .activity-completed{
     margin-top: 50px;
+    margin-bottom: 50px;
     height: 40px;
     width: 90%;
     margin-left: auto;
@@ -67,10 +73,12 @@
         justify-content: center;
     }
     .break-btn button{
-        padding: 4px;
-        height: 40px;
-        width: 100%;
-        border-radius: 10%;
+        padding: 5px;
+        height: 50px;
+        width: 90%;
+        border-radius: 15px;
+        border: none;
+        margin: 5px;
     }
 
 }
